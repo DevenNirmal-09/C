@@ -1,0 +1,31 @@
+#include<stdio.h>
+void display();
+int main()
+{
+    char *copy (char*,char *);
+    int main()
+    {
+        char *str;
+        char source[] = "Kindness";
+        char target[10];
+        1,2,
+        5
+        Page 21 of 22
+        str=copy(target,source);
+        printf("%s\n",str);
+        return 0;
+    }
+    char *copy(char *t,char *s)
+    {
+        char * r;
+        r = t;
+        while(*s!='\0')
+        {
+            *t=*s;
+            t++;
+            s++;
+        }
+        *t='\0';
+        return(r);
+    }
+}
